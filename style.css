@@ -412,3 +412,114 @@ h1, h2, h3, h4, h5, p {
     }
   }
 
+  @media only screen and (max-width: 800px) {
+    .Containers-Play-Text :nth-child(2) {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .Containers-Play-Text p {
+        color: #ffff;
+        margin: 5px 0px;
+        font-size: small;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .Containers-Study-Text :nth-child(2) {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .Containers-Study-Text p {
+        color: #ffff;
+        margin: 5px 0px;
+        font-size: small;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .Containers-Exercise-Text :nth-child(2) {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .Containers-Exercise-Text p {
+        color: #ffff;
+        margin: 5px 0px;
+        font-size: small;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .Containers-social-Text :nth-child(2) {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .Containers-social-Text p {
+        color: #ffff;
+        margin: 5px 0px;
+        font-size: small;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .Containers-Self-Care-Text :nth-child(2) {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .Containers-Self-Care-Text p {
+        color: #ffff;
+        margin: 5px 0px;
+        font-size: small;
+    }
+  }
+
+
+  @media only screen and (max-width: 800px) {
+    .Containers .Personal-Information :nth-child(2) {
+        color: var(--PaleBlue);
+        font-weight: 300;
+        font-family: 'Rubik';
+        position: absolute;
+        font-size: medium;
+        top: 110px;
+        left: 32px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .Containers .Personal-Information :nth-child(3) {
+        color: #ffff;
+        font-size: large;
+        position: absolute;
+        bottom: 30px;
+        left: 32px;
+        font-weight: lighter;
+    }
+  }
+
+  /* @media screen and (max-width: 650px){
+    .Containers {
+        padding: 0px 30px;
+        margin: 100px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+}} */
+
+
+
