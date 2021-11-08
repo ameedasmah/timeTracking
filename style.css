@@ -359,3 +359,56 @@ h1, h2, h3, h4, h5, p {
     color: #ffff;
     margin: 20px 0px;
 }
+
+@media only screen and (max-width: 800px) {
+    .Containers {
+        padding: 0px 30px;
+        margin: 200px 0;
+        display: grid;
+        grid-template-columns: 150px 150px 150px 150px;
+        grid-template-rows: 150px 150px;
+        column-gap: 15px;
+        row-gap: 25px;
+        grid-template-areas: 'area1 . . .' 'area1 . . .';
+      
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .text-Title h2 {
+        color: #ffff;
+        font-size: small;
+        font-weight: 300;
+        margin-top: 10px;
+      
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .text-Title button {
+        font-size: 35px;
+        border: none;
+        background: none;
+        margin-top: 7px;
+        color: #ffff;
+      
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .Containers-Work-Text :nth-child(2) {
+        font-size: 20px;
+        margin-bottom: 10px;
+      
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .Containers-Work-Text p {
+        color: #ffff;
+        margin: 5px 0px;
+        font-size: small;
+      
+    }
+  }
+
