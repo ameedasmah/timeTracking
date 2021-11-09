@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 .Containers .Personal-Information img {
-    max-width: 60px;
+    max-width: 120px;
     position: absolute;
     top: 30px;
     left: 32px;
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, p {
     font-weight: 500;
     font-family: 'Rubik';
     position: absolute;
-    top: 130px;
+    top: 165px;
     left: 32px;
 }
 
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, p {
     color: #ffff;
     font-size: 36px;
     position: absolute;
-    bottom: 60px;
+    bottom: 35px;
     left: 32px;
     font-weight: lighter;
 }
@@ -353,12 +353,60 @@ h1, h2, h3, h4, h5, p {
     margin: 10px 0px;
 }
 
-@media only screen and (max-width: 800px) {
+.mediaqueryMobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+
+/* for screen more than 971 px */
+
+@media only screen and (min-width: 750px) {
+    .Containers-Work-Text .context .mediaqueryMobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .Containers-Play-Text .context .mediaqueryMobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .Containers-Study-Text .context .mediaqueryMobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .Containers-Exercise-Text .context .mediaqueryMobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .Containers-social-Text .context .mediaqueryMobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .Containers-Self-Care-Text .context .mediaqueryMobile {
+        display: none;
+    }
+}
+
+/* for screen between 550-971px */
+
+@media only screen and (max-width: 971px) {
     .Containers {
-        padding: 0px 30px;
+        padding: 0px 140px;
         margin: 200px 0;
         display: grid;
-        grid-template-columns: 150px 150px 150px 150px;
+        grid-template-columns: 170px 150px 150px 150px;
         grid-template-rows: 150px 150px;
         column-gap: 15px;
         row-gap: 25px;
@@ -366,7 +414,7 @@ h1, h2, h3, h4, h5, p {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
     .text-Title h2 {
         color: #ffff;
         font-size: small;
@@ -375,7 +423,13 @@ h1, h2, h3, h4, h5, p {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
+    .Containers-leftSide {
+        height: 337px;
+    }
+}
+
+@media only screen and (max-width: 971px) {
     .text-Title button {
         font-size: 35px;
         border: none;
@@ -385,14 +439,14 @@ h1, h2, h3, h4, h5, p {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
     .Containers-Work-Text :nth-child(2) {
         font-size: 20px;
         margin-bottom: 10px;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
     .Containers-Work-Text p {
         color: #ffff;
         margin: 5px 0px;
@@ -400,14 +454,14 @@ h1, h2, h3, h4, h5, p {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
     .Containers-Play-Text :nth-child(2) {
         font-size: 20px;
         margin-bottom: 10px;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
     .Containers-Play-Text p {
         color: #ffff;
         margin: 5px 0px;
@@ -415,14 +469,14 @@ h1, h2, h3, h4, h5, p {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
     .Containers-Study-Text :nth-child(2) {
         font-size: 20px;
         margin-bottom: 10px;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
     .Containers-Study-Text p {
         color: #ffff;
         margin: 5px 0px;
@@ -430,14 +484,14 @@ h1, h2, h3, h4, h5, p {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
     .Containers-Exercise-Text :nth-child(2) {
         font-size: 20px;
         margin-bottom: 10px;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
     .Containers-Exercise-Text p {
         color: #ffff;
         margin: 5px 0px;
@@ -445,14 +499,14 @@ h1, h2, h3, h4, h5, p {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
     .Containers-social-Text :nth-child(2) {
         font-size: 20px;
         margin-bottom: 10px;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
     .Containers-social-Text p {
         color: #ffff;
         margin: 5px 0px;
@@ -460,14 +514,14 @@ h1, h2, h3, h4, h5, p {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
     .Containers-Self-Care-Text :nth-child(2) {
         font-size: 20px;
         margin-bottom: 10px;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
     .Containers-Self-Care-Text p {
         color: #ffff;
         margin: 5px 0px;
@@ -475,19 +529,19 @@ h1, h2, h3, h4, h5, p {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
     .Containers .Personal-Information :nth-child(2) {
         color: var(--PaleBlue);
         font-weight: 300;
         font-family: 'Rubik';
         position: absolute;
-        font-size: medium;
-        top: 110px;
-        left: 32px;
+        font-size: large;
+        top: 160px;
+        left: 34px;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 971px) {
     .Containers .Personal-Information :nth-child(3) {
         color: #ffff;
         font-size: large;
@@ -498,13 +552,438 @@ h1, h2, h3, h4, h5, p {
     }
 }
 
-/* @media screen and (max-width: 650px){
+/*  */
+
+/* Personal-Information */
+
+@media only screen and (max-width: 750px) {
     .Containers {
-        padding: 0px 30px;
-        margin: 100px 0;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        
-}} */
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers .Containers-leftSide {
+        height: 250px;
+        min-width: 310px;
+        max-width: 500px;
+        width: 100%;
+        border-radius: 15px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers .Personal-Information {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers .Personal-Information img {
+        padding: 0 30px;
+        width: 100px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers .Personal-Information :nth-child(2) {
+        color: var(--PaleBlue);
+        font-weight: 400;
+        font-family: 'Rubik';
+        position: absolute;
+        font-size: x-large;
+        top: 50px;
+        left: 172px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers .Personal-Information :nth-child(3) {
+        color: var(--PaleBlue);
+        font-weight: 300;
+        font-family: 'Rubik';
+        position: absolute;
+        font-size: x-large;
+        top: 80px;
+        left: 171px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers .buttons {
+        margin: 8px 0;
+    }
+}
+
+/* Work */
+
+@media only screen and (max-width: 750px) {
+    .Containers-Work {
+        height: 200px;
+        max-width: 500px;
+        min-width: 310px;
+        width: 100%;
+        border-radius: 15px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Work .Containers-Work-Text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 15px 0;
+        border-radius: 15px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Work .Containers-Work-Text .context {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Work .Containers-Work-Text .text-Title h2 {
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Work .Containers-Work-Text .context p {
+        text-align: left;
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Work .Containers-Work-Text .context :nth-child(3) {
+        margin-left: 240px;
+        /* margin-bottom: 100px; */
+    }
+}
+
+/* Play*/
+
+@media only screen and (max-width: 750px) {
+    .Containers-Play {
+        height: 200px;
+        min-width: 310px;
+        max-width: 500px;
+        width: 100%;
+        border-radius: 15px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Play .Containers-Play-Text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 15px 0;
+        border-radius: 15px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Play .Containers-Play-Text .context {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Play .Containers-Play-Text .text-Title h2 {
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Play .Containers-Play-Text .context p {
+        text-align: left;
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Play .Containers-Play-Text .context :nth-child(3) {
+        margin-left: 240px;
+    }
+}
+
+/* Study */
+
+@media only screen and (max-width: 750px) {
+    .Containers-Study {
+        height: 200px;
+        max-width: 500px;
+        min-width: 310px;
+        width: 100%;
+        border-radius: 15px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Study .Containers-Study-Text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 15px 0;
+        border-radius: 15px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Study .Containers-Study-Text .context {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Study .Containers-Study-Text .text-Title h2 {
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Study .Containers-Study-Text .context p {
+        text-align: left;
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Study .Containers-Study-Text .context :nth-child(3) {
+        margin-left: 240px;
+    }
+}
+
+/* Exercise */
+
+@media only screen and (max-width: 750px) {
+    .Containers-Exercise {
+        height: 200px;
+        max-width: 500px;
+        min-width: 310px;
+        width: 100%;
+        border-radius: 15px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Exercise .Containers-Exercise-Text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 15px 0;
+        border-radius: 15px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Exercise .Containers-Exercise-Text .context {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Exercise .Containers-Exercise-Text .text-Title h2 {
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Exercise .Containers-Exercise-Text .context p {
+        text-align: left;
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Exercise .Containers-Exercise-Text .context :nth-child(3) {
+        margin-left: 240px;
+    }
+}
+
+/* social */
+
+@media only screen and (max-width: 750px) {
+    .Containers-social {
+        height: 200px;
+        max-width: 500px;
+        min-width: 310px;
+        width: 100%;
+        border-radius: 15px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-social .Containers-social-Text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 15px 0;
+        border-radius: 15px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-social .Containers-social-Text .context {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-social .Containers-social-Text .text-Title h2 {
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-social .Containers-social-Text .context p {
+        text-align: left;
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-social .Containers-social-Text .context :nth-child(3) {
+        margin-left: 240px;
+    }
+}
+
+/* Self-Care */
+
+@media only screen and (max-width: 750px) {
+    .Containers-Self-Care {
+        height: 200px;
+        max-width: 500px;
+        width: 100%;
+        border-radius: 15px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Self-Care .Containers-Self-Care-Text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 15px 0;
+        border-radius: 15px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Self-Care .Containers-Self-Care-Text .context {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Self-Care .Containers-Self-Care-Text .text-Title h2 {
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Self-Care .Containers-Self-Care-Text .context p {
+        text-align: left;
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Self-Care .Containers-Self-Care-Text .context :nth-child(3) {
+        margin-left: 240px;
+    }
+}
+
+/* max width 750 */
+
+@media only screen and (max-width: 750px) {
+    .Containers-Work-Text .context .text-Title+p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Work-Text .context .text-Title+p+p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Play-Text .context .text-Title+p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Play-Text .context .text-Title+p+p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Study-Text .context .text-Title+p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Study-Text .context .text-Title+p+p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Exercise-Text .context .text-Title+p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Exercise-Text .context .text-Title+p+p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-social-Text .context .text-Title+p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-social-Text .context .text-Title+p+p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Self-Care-Text .context .text-Title+p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Containers-Self-Care-Text .context .text-Title+p+p {
+        display: none;
+    }
+}

@@ -25,7 +25,6 @@ const SelfCareHours = document.querySelector('.Containers-Self-Care .Containers-
 const SelfCarepreviousHours = document.querySelector('.Containers-Self-Care .Containers-Self-Care-Text .context .text-Title +p+p');
 // console.log(SelfCarepreviousHours.innerHTML)
 
-
 // Fetch Data
 // Async
 const getData = async () => {
