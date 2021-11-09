@@ -44,6 +44,7 @@ h1, h2, h3, h4, h5, p {
 
 .Containers .Containers-leftSide {
     grid-area: area1;
+    background-color: var(--DarkBlue);
 }
 
 .Containers .Personal-Information {
@@ -127,12 +128,11 @@ h1, h2, h3, h4, h5, p {
     justify-content: flex-start;
     box-sizing: border-box;
     margin: auto;
-   
 }
 
- .context{
-    width: 80%;
-    max-width: 80%;
+.context {
+    width: 83%;
+    max-width: 83%;
 }
 
 .text-Title {
@@ -143,7 +143,6 @@ h1, h2, h3, h4, h5, p {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-   
 }
 
 .text-Title h2 {
@@ -158,8 +157,6 @@ h1, h2, h3, h4, h5, p {
     margin-top: -18px;
     color: #ffff;
 }
-
-
 
 .Containers-Work-Text :nth-child(2) {
     font-size: 50px;
@@ -198,16 +195,14 @@ h1, h2, h3, h4, h5, p {
     margin: auto;
 }
 
-
-
 .Containers-Play-Text :nth-child(2) {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 10px;
 }
 
 .Containers-Play-Text p {
     color: #ffff;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .Containers .Containers-Study {
@@ -237,14 +232,14 @@ h1, h2, h3, h4, h5, p {
     margin: auto;
 }
 
-
 .Containers-Study-Text :nth-child(2) {
-    font-size: 40px;
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 
 .Containers-Study-Text p {
     color: #ffff;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 .Containers .Containers-Exercise {
@@ -274,15 +269,14 @@ h1, h2, h3, h4, h5, p {
     margin: auto;
 }
 
-
 .Containers-Exercise-Text :nth-child(2) {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 10px;
 }
 
 .Containers-Exercise-Text p {
     color: #ffff;
-    margin: 20px 0 ;
+    margin: 10px 0;
 }
 
 .Containers .Containers-social {
@@ -313,13 +307,13 @@ h1, h2, h3, h4, h5, p {
 }
 
 .Containers-social-Text :nth-child(2) {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 10px;
 }
 
 .Containers-social-Text p {
     color: #ffff;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 .Containers .Containers-Self-Care {
@@ -347,17 +341,16 @@ h1, h2, h3, h4, h5, p {
     justify-content: flex-start;
     box-sizing: border-box;
     margin: auto;
-
 }
 
 .Containers-Self-Care-Text :nth-child(2) {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 10px;
 }
 
 .Containers-Self-Care-Text p {
     color: #ffff;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -370,124 +363,119 @@ h1, h2, h3, h4, h5, p {
         column-gap: 15px;
         row-gap: 25px;
         grid-template-areas: 'area1 . . .' 'area1 . . .';
-      
     }
-  }
+}
 
-  @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .text-Title h2 {
         color: #ffff;
         font-size: small;
         font-weight: 300;
         margin-top: 10px;
-      
     }
-  }
+}
 
-  @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .text-Title button {
         font-size: 35px;
         border: none;
         background: none;
         margin-top: 7px;
         color: #ffff;
-      
     }
-  }
-  
-  @media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 800px) {
     .Containers-Work-Text :nth-child(2) {
         font-size: 20px;
         margin-bottom: 10px;
-      
     }
-  }
+}
 
-  @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .Containers-Work-Text p {
         color: #ffff;
         margin: 5px 0px;
         font-size: small;
-      
     }
-  }
+}
 
-  @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .Containers-Play-Text :nth-child(2) {
         font-size: 20px;
         margin-bottom: 10px;
     }
-  }
-  
-  @media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 800px) {
     .Containers-Play-Text p {
         color: #ffff;
         margin: 5px 0px;
         font-size: small;
     }
-  }
+}
 
-  @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .Containers-Study-Text :nth-child(2) {
         font-size: 20px;
         margin-bottom: 10px;
     }
-  }
-  
-  @media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 800px) {
     .Containers-Study-Text p {
         color: #ffff;
         margin: 5px 0px;
         font-size: small;
     }
-  }
+}
 
-  @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .Containers-Exercise-Text :nth-child(2) {
         font-size: 20px;
         margin-bottom: 10px;
     }
-  }
-  
-  @media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 800px) {
     .Containers-Exercise-Text p {
         color: #ffff;
         margin: 5px 0px;
         font-size: small;
     }
-  }
+}
 
-  @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .Containers-social-Text :nth-child(2) {
         font-size: 20px;
         margin-bottom: 10px;
     }
-  }
-  
-  @media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 800px) {
     .Containers-social-Text p {
         color: #ffff;
         margin: 5px 0px;
         font-size: small;
     }
-  }
-  @media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 800px) {
     .Containers-Self-Care-Text :nth-child(2) {
         font-size: 20px;
         margin-bottom: 10px;
     }
-  }
-  
-  @media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 800px) {
     .Containers-Self-Care-Text p {
         color: #ffff;
         margin: 5px 0px;
         font-size: small;
     }
-  }
+}
 
-
-  @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .Containers .Personal-Information :nth-child(2) {
         color: var(--PaleBlue);
         font-weight: 300;
@@ -497,9 +485,9 @@ h1, h2, h3, h4, h5, p {
         top: 110px;
         left: 32px;
     }
-  }
-  
-  @media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 800px) {
     .Containers .Personal-Information :nth-child(3) {
         color: #ffff;
         font-size: large;
@@ -508,9 +496,9 @@ h1, h2, h3, h4, h5, p {
         left: 32px;
         font-weight: lighter;
     }
-  }
+}
 
-  /* @media screen and (max-width: 650px){
+/* @media screen and (max-width: 650px){
     .Containers {
         padding: 0px 30px;
         margin: 100px 0;
@@ -520,6 +508,3 @@ h1, h2, h3, h4, h5, p {
         justify-content: space-between;
         
 }} */
-
-
-
